@@ -64,7 +64,7 @@ struct HomeWelcome: View {
                             .resizable()
                             .frame(width: 32, height: 20)
                     } handle: {
-                        openURL(URL(string: "https://ko-fi.com/stoatchat")!)
+                        openURL(URL(string: "https://ko-fi.com/stoked")!)
                     }
                     
                     HomeButton(title: "Open Settings", description: "You can also open settings from the bottom of the server list") {

@@ -11,7 +11,7 @@
 			<string>chat.stoat.app</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>stoatchat</string>
+				<string>stoked</string>
 			</array>
 		</dict>
 	</array>

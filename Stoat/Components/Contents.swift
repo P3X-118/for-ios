@@ -1267,7 +1267,7 @@ struct InnerContents: UIViewRepresentable {
                 
                 var currentAttrs = attrString.attributes(at: lowerInt, effectiveRange: nil)
                 
-                currentAttrs[.link] = URL(string: "stoatchat://channels?channel=\(id)")!
+                currentAttrs[.link] = URL(string: "stoked://channels?channel=\(id)")!
 
                 let channelName = channel.getName(viewState)
                 attrString.deleteCharacters(in: NSRange(globalRange, in: attrString.string))
@@ -1388,7 +1388,7 @@ struct InnerContents: UIViewRepresentable {
                 ]))
                 linkString.append(NSAttributedString(string: " 􀌲", attributes: [.font: currentFont]))
                 linkString.addAttributes([
-                    .link: URL(string: "stoatchat://channels?channel=\(channelId)&message=\(messageId)")!,  // TODO
+                    .link: URL(string: "stoked://channels?channel=\(channelId)&message=\(messageId)")!,  // TODO
                     .backgroundColor: UIColor.clear.withAlphaComponent(0.1),
                     .foregroundColor: foregroundColor
                 ], range: NSRange(location: 0, length: linkString.length))

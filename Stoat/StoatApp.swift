@@ -48,7 +48,7 @@ struct StoatApp: App {
                                     default:
                                         ()
                                 }
-                        case "stoatchat":
+                        case "stoked":
                             var queryItems: [String: String] = [:]
 
                             for item in components?.queryItems ?? [] {
